@@ -1,0 +1,5 @@
+creation_rules:
+  - path_regex: secrets\.yaml$
+    age:
+      - age18yqnrk0rk90474ugdvn3m2drszt4cfydcwwzdpjx9mze2etqhfkqk5h68s
+      - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDUlsBjxQLrzXZ8weXhJUehO1qXuoSQPZZEJI5KDZT+T jay@teab
