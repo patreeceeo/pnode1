@@ -12,7 +12,7 @@
   networking.hostName = "pnode1";
 
   users.users.root.openssh.authorizedKeys.keys = [
-    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJGoSR/3lCUTWVm5XGK1qapvATWrN/A+6mnu/PJbcsdq patrick@patbook"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE3YxxVgLik6ci8AD2hhEh832HD5y+3dPBUsd2vgJyad pscale01@gmail.com"
   ];
 
   services.openssh = {
