@@ -13,6 +13,7 @@
 
   users.users.root.openssh.authorizedKeys.keys = [
     "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIE3YxxVgLik6ci8AD2hhEh832HD5y+3dPBUsd2vgJyad pscale01@gmail.com"
+    "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPGO7Bn/RrFKVI4KNnqoZvFK69/IzrR0MhuHEUiepXxV pscal@Adelle"
   ];
 
   services.openssh = {
