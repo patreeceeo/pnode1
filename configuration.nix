@@ -3,6 +3,7 @@
 {
   imports = [
     ./hardware-configuration.nix
+    ./house-finances.nix
   ];
 
   boot.loader.grub = {
@@ -117,15 +118,6 @@
 
     locations."/" = {
       proxyPass = "http://127.0.0.1:8000";
-    };
-  };
-
-  services.nginx.virtualHosts."house-finances.zzt64.com" = {
-    forceSSL = true;
-    enableACME = true;
-
-    locations."/" = {
-      proxyPass = "http://127.0.0.1:8501";
     };
   };
 
