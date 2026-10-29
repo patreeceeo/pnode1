@@ -120,5 +120,14 @@
     };
   };
 
+  services.nginx.virtualHosts."house-finances.zzt64.com" = {
+    forceSSL = true;
+    enableACME = true;
+
+    locations."/" = {
+      proxyPass = "http://127.0.0.1:8501";
+    };
+  };
+
   networking.firewall.allowedTCPPorts = [ 80 443 ];
 }
